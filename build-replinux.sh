@@ -6,4 +6,5 @@ echo "deb-src http://ports.ubuntu.com/ xenial main universe" >> /etc/apt/sources
 apt-get update
 apt-mark hold libc6
 apt-get -y dist-upgrade
+apt-get -y autoremove
 apt-get clean
