@@ -10,5 +10,8 @@ apt-get -y dist-upgrade
 #Telnet support (for login without SSH in app)
 apt-get -y install telnetd
 
+#Motd fix
+echo "Ubuntu 16.04 [running via Linux Deploy, powered by Replinux Project]" > /etc/motd
+
 apt-get -y autoremove
 apt-get clean
